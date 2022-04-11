@@ -1,10 +1,12 @@
 # Deepfake_Detector
 
-You can download the weights and model.h5 files from the drive link: 
+You can download the weights of all models and h5 file of GAN_fake_vs_real model from the drive link: 
 [Link](https://drive.google.com/drive/folders/1PSmAB7KSt89rj4HhYAqGCd_g1zAMZChr?usp=sharing)
 
 After downloading the repository, you can run the requirements.txt file to install the required packages.
 <br>
+
+You can run the predict.ipynb file from each directory to test the model.
 
 ### Note: 
 If you get this error `ImportError: cannot import name 'Sequence' from 'keras.utils' (/usr/local/lib/python3.7/dist-packages/keras/utils/__init__.py)`
@@ -12,8 +14,6 @@ If you get this error `ImportError: cannot import name 'Sequence' from 'keras.ut
 then open the file in location `/usr/local/lib/python3.7/dist-packages/keras_video/generator.py`
 and then replace line `from keras.utils import Sequence` with `from tensorflow.keras.utils import Sequence` and save it.
 <br>
-
-You can run the predict.ipynb file from each directory to test the model.
 
 ## Directory Structure
 ```
