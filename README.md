@@ -1,17 +1,17 @@
 # Deepfake_Detector
 
-Download the weights and model.h5 files from the drive link: 
+You can download the weights and model.h5 files from the drive link: 
 [Link](https://drive.google.com/drive/folders/1PSmAB7KSt89rj4HhYAqGCd_g1zAMZChr?usp=sharing)
 
 After forking the repository, you can run the requirements.txt file to install the required packages.
-
-`pip install -r requirements.txt`
 <br>
 
-**Note:** If you get this error <br> `ImportError: cannot import name 'Sequence' from 'keras.utils' (/usr/local/lib/python3.7/dist-packages/keras/utils/__init__.py)`
+### Note: 
+If you get this error `ImportError: cannot import name 'Sequence' from 'keras.utils' (/usr/local/lib/python3.7/dist-packages/keras/utils/__init__.py)`
 <br>
-then open the file in location /usr/local/lib/python3.7/dist-packages/keras_video/generator.py
+then open the file in location `/usr/local/lib/python3.7/dist-packages/keras_video/generator.py`
 and then replace line `from keras.utils import Sequence` with `from tensorflow.keras.utils import Sequence` and save it.
+<br>
 
 ## Directory Structure
 ```
