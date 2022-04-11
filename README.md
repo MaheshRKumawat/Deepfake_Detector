@@ -13,6 +13,8 @@ then open the file in location `/usr/local/lib/python3.7/dist-packages/keras_vid
 and then replace line `from keras.utils import Sequence` with `from tensorflow.keras.utils import Sequence` and save it.
 <br>
 
+You can run the predict.ipynb file from each directory to test the model.
+
 ## Directory Structure
 ```
 |   .gitignore
