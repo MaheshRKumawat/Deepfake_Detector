@@ -35,7 +35,6 @@ and then replace line `from keras.utils import Sequence` with `from tensorflow.k
 |           model_weights.index
 |
 +---deepfake_video
-|   |   model.html
 |   |   model.ipynb
 |   |   model.png
 |   |   predict.ipynb
