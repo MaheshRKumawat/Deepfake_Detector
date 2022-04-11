@@ -1,0 +1,6 @@
+numpy
+tensorflow==2.5.0
+keras
+opencv-python
+keras-video-generators
+segmentation_models
