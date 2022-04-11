@@ -3,7 +3,7 @@
 You can download the weights and model.h5 files from the drive link: 
 [Link](https://drive.google.com/drive/folders/1PSmAB7KSt89rj4HhYAqGCd_g1zAMZChr?usp=sharing)
 
-After forking the repository, you can run the requirements.txt file to install the required packages.
+After downloading the repository, you can run the requirements.txt file to install the required packages.
 <br>
 
 ### Note: 
