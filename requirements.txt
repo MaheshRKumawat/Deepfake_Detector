@@ -2,5 +2,6 @@ numpy
 tensorflow==2.5.0
 keras
 opencv-python
+matplotlib
 keras-video-generators
 segmentation_models
