@@ -16,7 +16,7 @@ and then replace line `from keras.utils import Sequence` with `from tensorflow.k
 <br>
 
 ### Detector.py file:
-It consists of function that can be used to detect deepfake or ganfake etc.
+It consists of functions that can be used to detect deepfake or ganfake etc.
 <br>
 you can call the function `predict` which accepts two parameters:
 1. path of the video or image
