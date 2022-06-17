@@ -6,7 +6,7 @@ You can download the weights of all models and h5 file of GAN_fake_vs_real model
 After downloading the repository, you can run the requirements.txt file to install the required packages.
 <br>
 
-You can run the predict.ipynb file from each directory to test the model.
+You can run the predict.ipynb file from each directory to test the model. 
 
 ### Note: 
 If you get this error `ImportError: cannot import name 'Sequence' from 'keras.utils' (/usr/local/lib/python3.7/dist-packages/keras/utils/__init__.py)`
@@ -15,9 +15,17 @@ then open the file in location `/usr/local/lib/python3.7/dist-packages/keras_vid
 and then replace line `from keras.utils import Sequence` with `from tensorflow.keras.utils import Sequence` and save it.
 <br>
 
+### Detector.py file:
+It consists of function that can be used to detect deepfake or ganfake etc.
+<br>
+you can call the function `predict` which accepts two parameters:
+1. path of the video or image
+2. type which you want to check (deepfake video, deepfake image, ganfake)
+
 ## Directory Structure
 ```
 |   .gitignore
+|   detector.py
 |   README.md
 |   requirements.txt
 |
